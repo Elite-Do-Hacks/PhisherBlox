@@ -1,0 +1,5 @@
+pkg update && pkg upgrade
+pkg install cloudflared
+termux-setup-storage
+chmod +x PhisherBlox.sh
+
