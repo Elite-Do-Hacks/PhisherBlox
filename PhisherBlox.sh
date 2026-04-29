@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # 1. Ask the user for the port
-# We use a loop to ensure the script doesn't skip this part
 PORT=""
 while [ -z "$PORT" ]; do
     read -p "Enter the port you want to tunnel (e.g., 5000): " PORT
