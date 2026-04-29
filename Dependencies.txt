@@ -2,4 +2,6 @@ pkg update && pkg upgrade
 pkg install cloudflared
 termux-setup-storage
 chmod +x PhisherBlox.sh
-
+pkg install python
+pip install flask
+To Be Ran In The Terminal For The Complete Setup
